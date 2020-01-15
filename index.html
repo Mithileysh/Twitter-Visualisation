@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://13x29.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The 13x29 Project" />
+    <meta property="og:description" content="The 13 x 29 project tracks 13 fields with 29 people each, visualising how India reacted to the historic decision by the Supreme Court that decriminalized homosexuality."
+    />
+    <meta property="og:image" content="https://13x29.github.io/vases/13x29.png" />
+
+    <title>13 x 29 Project</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49711524-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49711524-9');
+    </script>
+</head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link href="main.css" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <div class="message">
+            <p class="large">I am what I am, so take me as I am.</p>
+            <p>With these words, India became the 26th nation in the world to decriminialize homosexuality.</p>
+            <p>75% of the world today lives in a country where loving someone of the same gender is not a crime.</p>
+            <p>The 13 x 29 project tracks 13 fields with 29 people each, visualising how India reacted to this historic decision.</p>
+            <a class="continue">Continue</a>
+        </div>
+        <div class="whiteMode">
+            <header>
+                <h4 id="featured"></h4>
+                <p id="title"></p>
+                <h4 id="fthash"></h4>
+                <div class="answer">
+                    <span class="fol_count"></span>
+                    <span class="tot_count"></span>
+                </div>
+
+
+            </header>
+            <div class="infoBox">
+                <h5>Average Clustering Coefficient</h5>
+                <div class="answer"><span class="cc"></span></div>
+                <h5>CC for Verdict-Reactors</h5>
+                <div class="answer"><span class="t_cc"></span></div>
+                <h5>CC for Verdict-Non-Reactors</h5>
+                <div class="answer"><span class="nt_cc"></span></div>
+
+
+                <p class="helper"><a href="https://medium.com/p/8d105f828748#1010">What is Clustering Coefficient?</a></p>
+
+                <h5>Most Followed</h5>
+                <div class="answer"><span class="most"></span>&nbsp;<span class="most_val"></span></div>
+
+                <h5>Top Hashtags</h5>
+                <div class="answer"><span class="hashes"></span></div>
+
+                <h5>Info</h5>
+                <p class="info_cat answer" style="padding-right:60px">
+                    Do excepteur sint tempor non sit et nostrud ex et ullamco ex. Anim nulla nostrud voluptate eu ex veniam aliqua amet cupidatat
+                    consectetur cupidatat anim. Est aute esse tempor in cupidatat commodo irure deserunt non nostrud commodo
+                    laboris ipsum. Id anim fugiat enim aute minim dolore incididunt est ut exercitation laboris tempor aute.
+                    Sint sunt non ut veniam ex. Veniam occaecat enim consectetur deserunt.
+                </p>
+
+            </div>
+            <div class="menu">
+
+                <div class="catox">
+                    <img class="logo" src="img/logo.png" />
+                    <div class="name" style="display:none">All</div>
+                </div>
+                <div class="cats">
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Government</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Opposition</div>
+                    </div>
+
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">States</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Faith</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Journalism</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Law</div>
+                    </div>
+
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Sports</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Bollywood</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Music</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Creativity</div>
+                    </div>
+                    <div class="cat cato" id="trig">
+                        <div class="control"></div>
+                        <div class="name">YouTube</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Entrepreneurship</div>
+                    </div>
+                    <div class="cat cato">
+                        <div class="control"></div>
+                        <div class="name">Forbes30Under30</div>
+                    </div>
+                    <div style="font-size:0.8em">
+                        <input type="checkbox" id="showhash" value="hashtags"> Show Hashtags<br>
+                        <input type="checkbox" id="showfoll" value="followers"> Show n(Followers)<br>
+                        <input type="checkbox" id="showtotal" value="total"> Show Total Tweets<br>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="tv">
+                <div class="show_tweet"></div>
+                <div class="show_person"></div>
+                <div class="show_date"></div>
+
+                <div class="playpausezone">
+                    <span class="visitlink">Link</span>
+                    <span class="prev onResume">Prev</span>
+                    <span class="next onResume">Next</span>
+                    <span class="playpause">Pause</span>
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <div id="p5container">
+
+    </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+<!-- <script src="typed.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+<script src="springy.js"></script>
+<script src="springyui.js"></script>
+<script src="main.js"></script>
+
+</html>
